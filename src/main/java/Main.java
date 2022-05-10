@@ -30,7 +30,7 @@ public class Main {
     }
 
     // returns all the persons from the csv file
-    private static List<Person> getFileData(Scanner scanner) {
+    public List<Person> getFileData(Scanner scanner) {
         List<Person> personList = new ArrayList<>();
 
         while (scanner.hasNext()){
