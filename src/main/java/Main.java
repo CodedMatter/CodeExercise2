@@ -82,7 +82,6 @@ public class Main {
             removeDuplicateIds(personList);
 
             for(Person p : personList){
-                System.out.println(p.getCSVFormat());
                 printWriter.println(p.getCSVFormat());
             }
             printWriter.close();
